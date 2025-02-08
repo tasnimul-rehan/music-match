@@ -19,7 +19,7 @@ const RegAsTeacher = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://47.129.237.189:8448/teachers", {
+      const response = await axios.post("http://47.129.237.189:8448/api/v1/gsf/teachers", {
         ...formData,
         experience: Number(formData.experience), // Convert to number
         // Add any additional required fields from the API documentation
