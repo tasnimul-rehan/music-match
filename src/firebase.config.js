@@ -13,9 +13,10 @@ const firebaseConfig = {
   storageBucket: "music-match-wireframe.firebasestorage.app",
   messagingSenderId: "331239326719",
   appId: "1:331239326719:web:ef2097ac7d977e8cc01dca",
-  measurementId: "G-4CMELKF4KB"
+  measurementId: "G-4CMELKF4KB",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+export default app;
